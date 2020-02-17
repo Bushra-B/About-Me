@@ -7,7 +7,7 @@ var q1, q2, q3, q4, q5 = '';
 //var responseValidation = [q1, q2, q3, q4, q5];
 //responseValidation.toLowerCase();
 q1 = prompt('Is Coffe My Favourite Drink?').toLowerCase();
-console.log('q1 user response is: ' + q1);
+//console.log('q1 user response is: ' + q1);
 switch(q1) {
 case 'yes':
   alert('Correct!\nI love coffe! it is not just a favourite drink, it is one my favourite things in life!');
@@ -23,7 +23,7 @@ case 'n':
   break;
 }
 q2 = prompt('Do I love Reading?').toLowerCase();
-console.log('q2 user response is: ' + q2);
+//console.log('q2 user response is: ' + q2);
 switch(q2) {
 case 'yes':
   alert('Right Guess!\nI love reading so much\nReading novels and literature is a hobby of mine.\nAnd I like reading\
@@ -43,7 +43,7 @@ articles, blogs and even study materials.');
   break;
 }
 q3 = prompt('Is Blue My Favourite Color?').toLowerCase();
-console.log('q3 user response is: ' + q3);
+//console.log('q3 user response is: ' + q3);
 switch(q3) {
 case 'yes':
   alert('Hahaha Blue is my least favourite color.\nI know it is a VERY popular color, but I never really\
@@ -63,7 +63,7 @@ My BEST color of all is Grean!\nI mean, how can one not LOVE Grean!');
   break;
 }
 q4 = prompt('Do You Think I Speak A Foreign Language - Other Than English - ?').toLowerCase();
-console.log('q4 user response is: ' + q4);
+//console.log('q4 user response is: ' + q4);
 switch(q4) {
 case 'yes':
   // eslint-disable-next-line quotes
@@ -87,7 +87,7 @@ case 'n':
   break;
 }
 q5 = prompt('Am I Good At Coding?').toLowerCase();
-console.log('q5 user response is: ' + q5);
+//console.log('q5 user response is: ' + q5);
 switch(q5) {
 case 'yes':
   alert('Thank you for your good opinion in me, '+userName+'! I am still a beginner learning to code\

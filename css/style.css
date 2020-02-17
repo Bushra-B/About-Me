@@ -1,0 +1,16 @@
+header {
+    text-align: center;
+    background: url("/img/1Eq7Y.jpg") no-repeat center center fixed #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-weight: bolder;
+}
+body {
+    background-color: rgba(137, 43, 226, 0.514);
+}
+footer {
+    text-align: center;
+    background-color: rgba(137, 43, 226, 0.767);
+}

@@ -2,7 +2,7 @@
 var userName = prompt('Hello, Welcome To My Website!\nMy Name Is Bushra.\n\
 You Can Get To Know Me Better By Playing A Guess Game And Reading About Me In This Website.\nSo What is your name?');
 alert('Welcome '+userName+'!\nSo Let Us Start The Guess Game :)\nI Will Ask You 7 Questions About Me '+userName+', \
-And You Make a Yes (Y) or No (N) Guess.\nHave Fun!');
+For The First 5 Questions Make a Yes (Y) or No (N) Answer.\nHave Fun!');
 var q1, q2, q3, q4, q5, q6, q7 = '';
 var score = 0;
 var i;
@@ -114,93 +114,27 @@ for (i=1; i < 5; i++) {
 if (correctAnswer === false) {
   alert('Sorry you have used all your attempts.\nThe correct answer is zero!\nI don\'t have any sisters :p');
 }
-var months = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
+var myMonth = ['mar', 'Mar', 'march', 'March', '3'];
 correctAnswer = false;
 forLoop:
 for (i=1; i < 7; i++) {
-  q7 = prompt('Q.7: Which month was I born in?\n'+months+' ?\nNote: You have 6 attempts to answer this question \nThis is attempt\
- number '+i).toLowerCase();
-  switch(q7) {
-  case months[0]:
-  case 'january':
-  case '1':
-    alert('Not the right answer, try again!');
-    //console.log('q7 response: '+q7);
-    break;
-  case months[1]:
-  case 'february':
-  case '2':
-    alert('Not the right answer, try again!');
-    //console.log('q7 response: '+q7);
-    break;
-  case months[2]:
-  case 'march':
-  case '3':
+  q7 = prompt('Q.7: Which month was I born in?\nNote: You have 6 attempts to answer this question \nThis is attempt\
+ number '+i);
+  switch(q7){
+  case myMonth[0]:
+  case myMonth[1]:
+  case myMonth[2]:
+  case myMonth[3]:
+  case myMonth[4]:
     alert('Correct! I was born in March 29th');
-    //console.log('q7 response: '+q7);
     score ++;
-    //console.log('current score is: '+score);
     correctAnswer = true;
     break forLoop;
-  case months[3]:
-  case 'april':
-  case '4':
+  default:
     alert('Not the right answer, try again!');
-    //console.log('q7 response: '+q7);
-    break;
-  case months[4]:
-  case 'may':
-  case '5':
-    alert('Not the right answer, try again!');
-    //console.log('q7 response: '+q7);
-    break;
-  case months[5]:
-  case 'june':
-  case '6':
-    alert('Not the right answer, try again!');
-    //console.log('q7 response: '+q7);
-    break;
-  case months[6]:
-  case 'july':
-  case '7':
-    alert('Not the right answer, try again!');
-    //console.log('q7 response: '+q7);
-    break;
-  case months[7]:
-  case 'august':
-  case '8':
-    alert('Not the right answer, try again!');
-    //console.log('q7 response: '+q7);
-    break;
-  case months[8]:
-  case 'september':
-  case '9':
-    alert('Not the right answer, try again!');
-    //console.log('q7 response: '+q7);
-    break;
-  case months[9]:
-  case 'october':
-  case '10':
-    alert('Not the right answer, try again!');
-    //console.log('q7 response: '+q7);
-    break;
-  case months[10]:
-  case 'november':
-  case '11':
-    alert('Not the right answer, try again!');
-    //console.log('q7 response: '+q7);
-    break;
-  case months[11]:
-  case 'december':
-  case '12':
-    alert('Not the right answer, try again!');
-    //console.log('q7 response: '+q7);
-    break;
   }
 }
 if (correctAnswer === false) {
-  alert('Sorry you have used all your attempts.\nThe correct answer is March!\nI was born in March 29th');
-}
+  alert('Sorry you have used all your attempts.\nThe correct\ answer is March!\nI was born in March 29th');}
 alert('Thank You For Playing This Game '+userName+', your final score is: '+score+' / 7\
-\nI Hope You Enjoyed It And Knowed A Little Bit About Me!.');
-
+    \nI Hope You Enjoyed It And Knowed A Little Bit About Me!.');

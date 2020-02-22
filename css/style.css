@@ -26,7 +26,6 @@ nav ul {
 nav ul li {
     display: inline-block;
     font-size: 20px;
-    /*padding-top: 150px;*/
 }
 nav ul li a{
     color: white;
@@ -39,12 +38,6 @@ nav ul li a:hover{
 .myNav{
     float: left;
 }
-/*article {
-    padding: 10%;
-    padding-bottom: 12%;
-    display: block;
-    color: rgb(71, 67, 71);
-}*/
 section{
     box-shadow: 10px 10px 5px  #aaaaaa;
 }
@@ -128,7 +121,6 @@ h3{
     color: rgb(66, 75, 83);
 }
 article {
-    /*background-color:  rgba(241, 238, 64, 0.507);*/
     padding: 10%;
     font-size: x-large;
 }

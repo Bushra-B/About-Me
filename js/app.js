@@ -7,13 +7,11 @@ var q1, q2, q3, q4, q5, q6, q7 = '';
 var score = 0;
 var i;
 function cofeeLover() {q1 = prompt('Q.1: Is Coffe My Favourite Drink?').toLowerCase();
-//console.log('q1 user response is: ' + q1);
   switch(q1) {
   case 'yes':
   case 'y':
     alert('Correct!\nI love coffe! it is not just a favourite drink, it is one my favourite things in life!');
     score ++;
-    //console.log('current score is: '+score);
     break;
   case 'no':
   case 'n':
@@ -23,14 +21,12 @@ function cofeeLover() {q1 = prompt('Q.1: Is Coffe My Favourite Drink?').toLowerC
 }
 cofeeLover();
 function readingLover() {q2 = prompt('Q.2: Do I love Reading?').toLowerCase();
-//console.log('q2 user response is: ' + q2);
   switch(q2) {
   case 'yes':
   case 'y':
     alert('Right Guess!\nI love reading so much\nReading novels and literature is a hobby of mine.\nAnd I like reading\
 in general, whether it is articles, blogs or study materials.');
     score ++;
-    //console.log('current score is: '+score);
     break;
   case 'no':
   case 'n':
@@ -41,7 +37,6 @@ articles, blogs and even study materials.');
 }
 readingLover();
 function colorFav() {q3 = prompt('Q.3: Is Blue My Favourite Color?').toLowerCase();
-//console.log('q3 user response is: ' + q3);
   switch(q3) {
   case 'yes':
   case 'y':
@@ -53,20 +48,17 @@ function colorFav() {q3 = prompt('Q.3: Is Blue My Favourite Color?').toLowerCase
     alert('Right, I am not a fan of this color and I do not like it that much.\n\
 My BEST color of all is Grean!\nI mean, how can one not LOVE Grean!');
     score ++;
-    //console.log('current score is: '+score);
     break;
   } 
 }
 colorFav();
 function langSpeaker() {q4 = prompt('Q.4: Do You Think I Speak A Foreign Language - Other Than English - ?').toLowerCase();
-//console.log('q4 user response is: ' + q4);
   switch(q4) {
   case 'yes':
   case 'y':
     alert('Corretto! Io parlo un po l\'italiano, e mi piacciono le lingue in generale - I speak a little Italian,\
  and I like languages in general.');
     score ++;
-    //console.log('current score is: '+score);
     break;
   case 'no':
   case 'n':
@@ -77,14 +69,12 @@ function langSpeaker() {q4 = prompt('Q.4: Do You Think I Speak A Foreign Languag
 }
 langSpeaker();
 function coderSkills() {q5 = prompt('Q.5: Am I Good At Coding?').toLowerCase();
-//console.log('q5 user response is: ' + q5);
   switch(q5) {
   case 'yes':
   case 'y':
     alert('Thank you for your good opinion in me, '+userName+'! I am still a beginner learning to code\
 and I really hope I get to be very good at it.');
     score ++;
-    //console.log('current score is: '+score);
     break;
   case 'no':
   case 'n':
@@ -99,26 +89,20 @@ function sistersNumber() {var correctAnswer = false;
     q6 = Number(prompt('Q.6: Guess how many sisters do I have?\
     \nNote: I will give you 4 attempts to answer this question.\nThis is attempt\
    number '+i));
-    //console.log('q6 response is: '+q6);
     if (q6 === 0) {
       alert('Right Guess! I have no sisters.\nBut I do have two amazing brothers!');
-      //console.log('q6 response is: '+q6);
       score ++;
-      //console.log('current score is: '+score);
       correctAnswer = true;
       break;
     }
     else if (q6 > 0 && q6 <= 3) {
       alert('Not the correct answer, but you are close!');
-      //console.log('q6 response is: '+q6);
     }
     else if (q6 >= 4 && q6 <= 6) {
       alert('Not the correct answer, you\'r a little too far');
-      //console.log('q6 response is: '+q6);
     }
     else if (q6 >= 7) {
       alert('Not the correct answer, you\'r too far!');
-      //console.log('q6 response is: '+q6);
     }
   }
   if (correctAnswer === false) {
